@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+}
+nav ul li{
+  padding: 10px 10px;
+  text-decoration: none;
+  list-style: none;
+}
+nav ul li:hover{
+  color: blue;
+  cursor: pointer;
+}
+
